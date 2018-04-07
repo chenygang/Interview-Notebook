@@ -119,7 +119,7 @@ public InitialOrderTest() {
 
 存在继承的情况下，初始化顺序为：
 
-1. 父类（静态变量、静态语句块块）
+1. 父类（静态变量、静态语句块）
 2. 子类（静态变量、静态语句块）
 3. 父类（实例变量、普通语句块）
 4. 父类（构造函数）
@@ -300,7 +300,7 @@ public interface InterfaceDefaultTest {
 
 使用接口：
 
-- 需要让不相关的类都实现一个方法，例如不相关的类都可以实现 Compareable 接口中的 compareTo() 方法；
+- 需要让不相关的类都实现一个方法，例如不相关的类都可以实现 Comparable 接口中的 compareTo() 方法；
 - 需要使用多重继承。
 
 > [When to Use Abstract Class and Interface](https://dzone.com/articles/when-to-use-abstract-class-and-intreface)
