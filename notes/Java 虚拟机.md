@@ -203,7 +203,7 @@ PhantomReference<Object> pf = new PhantomReference<Object>(obj);
 
 可以通过 -Xnoclassgc 参数来控制是否对类进行卸载。
 
-在大量使用反射、动态代理、CGLib 等 ByteCode 框架、动态生成 JSP 以及 OSGo 这类频繁自定义 ClassLoader 的场景都需要虚拟机具备类卸载功能，以保证不会出现内存溢出。
+在大量使用反射、动态代理、CGLib 等 ByteCode 框架、动态生成 JSP 以及 OSGI 这类频繁自定义 ClassLoader 的场景都需要虚拟机具备类卸载功能，以保证不会出现内存溢出。
 
 ### 5. finalize()
 
