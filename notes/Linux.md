@@ -1150,7 +1150,8 @@ I/O Multiplexing 又被称为 Event Driven I/O，它可以让单个进程具有�
 
 同步异步是获知 I/O 完成的方式，同步需要时刻关心 I/O 是否已经完成，异步无需主动关心，在 I/O 完成时它会收到通知。
 
-<div align="center"> <img src="../pics//54cb3f21-485b-4159-8bf5-dcde1c4d4c36.png" width=""/> </div><br>
+<div align="center"> <img src="../pics//1a231f2a-5c2f-4231-8e0f-915aa5894347.jpg"/> </div><br>
+
 
 ### 1. 同步-阻塞
 
@@ -1374,7 +1375,7 @@ poll 和 select 在速度上都很慢。
 
 几乎所有的系统都支持 select，但是只有比较新的系统支持 poll。
 
-## epoll 工作模式
+## eopll 工作模式
 
 epoll_event 有两种触发模式：LT（level trigger）和 ET（edge trigger）。
 

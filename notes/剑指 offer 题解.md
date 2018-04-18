@@ -98,11 +98,11 @@
 
 以 (2, 3, 1, 0, 2, 5) 为例：
 
-```html
+```text-html-basic
 position-0 : (2,3,1,0,2,5) // 2 <-> 1
              (1,3,2,0,2,5) // 1 <-> 3
              (3,1,2,0,2,5) // 3 <-> 0
-             (0,1,2,3,2,5) // already in position
+             (0,1,2,3,2,5) // already in position
 position-1 : (0,1,2,3,2,5) // already in position
 position-2 : (0,1,2,3,2,5) // already in position
 position-3 : (0,1,2,3,2,5) // already in position
